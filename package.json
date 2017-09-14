@@ -1,0 +1,21 @@
+{
+  "name": "express-api-test-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "tape test/**/*_test.js | faucet",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "faucet": "^0.0.1",
+    "supertest": "^3.0.0",
+    "tape": "^4.8.0"
+  }
+}
